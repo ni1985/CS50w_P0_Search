@@ -3,6 +3,8 @@
     <head>
         <title>Search</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/be490683f4.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>   
     <body>
         <a href="image.html">Image Search</a>
@@ -13,9 +15,15 @@
             class="orange">a</span><span class="blue">r</span><span 
             class="green">c</span><span class="red">h</span>
         </h2>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
+        <form action="https://google.com/search" autocomplete="off">
+            <div class="input-container">
+                <i class="fas fa-search icon"></i>
+                <input class="input-field" type="text" name="q">
+            </div>
             <input type="submit" value="Google Search">
+            <input type="submit" value="I'm Feeling Lucky">
         </form>
     </body>
 </html>
+
+
