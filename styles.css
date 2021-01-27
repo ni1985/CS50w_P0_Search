@@ -2,40 +2,56 @@
     box-sizing: border-box;
 }
 
-*:focus {
-    outline: 0 !important;
-}
+    *:focus {
+        outline: 0 !important;
+    }
 
 h2 {
     font-size: 150px;
 }
 
 .blue {
-    color:blue;
+    color: blue;
 }
 
 .red {
-    color:red;
+    color: red;
 }
 
 .orange {
-    color:orange;
+    color: orange;
 }
 
 .green {
-    color:green;
+    color: green;
+}
+
+.input-container {
+    display: flex;
+    border: 1px solid;
+    border-radius: 24px;
+    border-color: grey;
+    height: 44px;
+    width: 500px;   
 }
 
 .icon {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 3px;
+    height: 20px;
+    width: 20px;
     color: grey;
-    min-width: 50px;
-   
+    display: inline-block;
+    position: relative;
 }
 
 .input-field {
-    border-radius: 25px;
-    border-width: 1px;
-    border-color: lightgray;
-    height: 50px;
-    width: 500px;
+    display: flex;
+    font: 16px arial;
+    border: none;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
 }
