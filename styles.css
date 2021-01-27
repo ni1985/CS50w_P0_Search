@@ -7,11 +7,25 @@
 }
 
 h2 {
-    font-size: 150px;
+    font: 70px arial;
+}
+
+a {
+    margin: 0px 10px;
+    font: 13px arial;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .blue {
-    color: blue;
+    color: rgb(81, 81, 247);
 }
 
 .red {
@@ -30,13 +44,16 @@ h2 {
     display: flex;
     border: 1px solid;
     border-radius: 24px;
-    border-color: grey;
+    border-color: lightgrey;
     height: 44px;
-    width: 500px;   
+    width: 450px;
+}
+
+.input-container:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
 }
 
 .icon {
-    display: flex;
     align-items: center;
     padding: 10px;
     margin-top: 3px;
@@ -48,10 +65,48 @@ h2 {
 }
 
 .input-field {
-    display: flex;
     font: 16px arial;
     border: none;
     align-items: center;
     padding: 10px;
     margin-left: 10px;
+    width: 400px; 
 }
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.under {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.pos_right {
+    text-align: right;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.button {
+    margin: 0px 15px;
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: rgb(243, 243, 243);
+    border: none;
+}
+
+.button:hover {
+    border: 1px solid grey;
+}
+

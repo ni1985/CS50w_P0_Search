@@ -4,14 +4,31 @@
         <title>Image Search</title>
         <link rel="stylesheet" href="styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <script src="https://kit.fontawesome.com/be490683f4.js" crossorigin="anonymous"></script>
     </head>   
     <body>
-        <a href="index.html">Standard Search</a>
-        <h3 class="red">Image Search</h3>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Image Search">
+        <div class="pos_right">
+            <a href="index.html">Standard Search</a>
+        </div>
+        <div class="title">
+            <h2>
+                <span 
+                class="blue">S</span><span class="red">e</span><span 
+                class="orange">a</span><span class="blue">r</span><span 
+                class="green">c</span><span class="red">h</span>
+            </h2>
+        </div>
+        <form action="https://google.com/search?" autocomplete="off">
+            <div class="center">    
+                <div class="input-container">
+                    <i class="fas fa-search icon"></i>
+                    <input class="input-field" type="text" name="q">
+                    <input type="hidden" name="tbm" value="isch">
+                </div>
+            </div>
+            <div class="under">
+                <input class="button" type="submit" value="Image Search">
+            </div>
         </form>
     </body>
 </html>
