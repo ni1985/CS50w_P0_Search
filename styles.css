@@ -10,6 +10,16 @@ h2 {
     font: 70px arial;
 }
 
+h3 {
+    font: 20px arial;
+    padding-left: 50px;
+}
+
+h4 {
+    font: 16px arial;
+    padding-left: 50px;
+}
+
 a {
     margin: 0px 10px;
     font: 13px arial;
@@ -110,3 +120,62 @@ a:hover {
     border: 1px solid grey;
 }
 
+.header {
+    padding: 20px 20px;
+    background-color: #F1F1F1;
+}
+
+body{
+    margin: 0;
+}
+
+.subheader {
+    padding: 7px 20px;
+    border-bottom: 2px solid #F1F1F1;
+}
+
+.adv_form {
+    padding-left: 20px;
+}
+
+.par {
+    font: 15px arial;
+    vertical-align: middle;
+}
+
+.adv_btn {
+    background-color: #3484F0;
+    margin-left: 528px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    color: white;
+    border-style: none;
+    font: 13px arial;
+}
+
+.adv_btn:hover {
+    background-color: rgb(83, 150, 238);
+}
+
+.adv_search {
+    clear: both;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.adv_input1 {
+    float: left;
+    width: 15%;
+    min-width: 200px;
+}
+
+.adv_input2 {
+    float: left;
+    width: 50%;
+}
+
+.inp {
+    width: 400px;
+}

@@ -7,19 +7,53 @@
         <script src="https://kit.fontawesome.com/be490683f4.js" crossorigin="anonymous"></script>
     </head>   
     <body>
-        <div class="pos_right">
-            <a href="index.html">Standard Search</a>
+        <div class="header">
+            <div class="pos_right">
+                <a href="index.html">Standard Search</a>
+            </div>
         </div>
-        <h3 class="red">Advanced Search</h3>
-        
-        <form action="https://google.com/search">
-            <h3>Find pages with...</h3>
-            <p>all these words:</p>
-            <p>this exact word or phrase:</p>
-            <p>any of these words:</p>
-            <p>none of these words:</p>
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div class="subheader">
+            <h3 class="red">Advanced Search</h3>
+        </div>
+        <div class="adv_form">  
+            <form action="https://google.com/search">
+                <h4>Find pages with...</h3>
+                <div class="adv_search">
+                    <div class="adv_input1">
+                        <p class="par">all these words:</p>
+                    </div>
+                    <div class="adv_input2">
+                        <input class="par inp" type="text" name="as_q">
+                    </div>
+                </div>
+                <div class="adv_search">
+                    <div class="adv_input1">
+                        <p class="par">this exact word or phrase:</p>
+                    </div>
+                    <div class="adv_input2">
+                        <input class="par inp" type="text" name="as_epq">
+                    </div>
+                </div>
+                <div class="adv_search">
+                    <div class="adv_input1">
+                        <p class="par">any of these words:</p>
+                    </div>
+                    <div class="adv_input2">
+                        <input class="par inp" type="text" name="as_oq">
+                    </div>
+                </div>
+                <div class="adv_search">
+                    <div class="adv_input1">    
+                        <p class="par">none of these words:</p>
+                    </div>
+                    <div class="adv_input2">
+                        <input class="par inp" type="text" name="as_eq">
+                    </div>
+                </div>
+                <div class="adv_search">
+                    <input class="par adv_btn" type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
     </body>
 </html>
